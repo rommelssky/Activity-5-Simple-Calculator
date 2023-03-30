@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=PT+Sans+Caption&family=Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #BD6267, #5B4C97);
+}
+.top-txt{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.container{
+    box-shadow: 0 0 4px 1px rgb(179, 169, 169);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+    flex-direction: column;  
+    background-image: linear-gradient(to right, #FEB692, #EA5455, #B24C63);
+
+}
+.container p{
+    color: rgb(20, 94, 82);
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}
+.inputContainer label{
+    font-size: larger;
+}
+.inputContainer input{
+    border:none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(145, 140, 140);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
